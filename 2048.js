@@ -466,24 +466,3 @@ function undoMove() {                                //undo
 }
 
 
-
-
-
-// Clicking on Refresh Button
-
-
-const clickRestart = document.getElementById("restartButton");
-if (clickRestart)
-clickRestart.addEventListener('click', event => {
-  setGame();
-});
-
-
-
-let refreshButton = document.getElementById("restartButton");
-if (refreshButton)
-{
-    refreshButton.onclick = function() {
-        setGame();
-    }
-}
